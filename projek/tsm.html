@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<style>
+.hero {
+  background: linear-gradient(90deg, hsl(218, 52%, 64%), hsl(219, 68%, 71%));
+            padding: 60px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 20px;
+            line-height: 1.2;
+            color: #dbe4fb;
+        }
+        .hero p {
+            font-size: 1rem;
+            color: #dbe4fb;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+        }
+        @media (min-width: 768px) {
+            .hero h1 {
+                font-size: 3rem;
+            }
+            .hero p {
+                font-size: 1.125rem;
+            }
+        }
+
+body{
+background:#f5f7fb;
+font-family: Arial, sans-serif;
+}
+
+.card{
+border:none;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,0.05);
+}
+
+.badge-blue{
+background:#e8f1ff;
+color:#0d6efd;
+padding:6px 12px;
+border-radius:20px;
+font-size:12px;
+}
+
+.icon-box{
+width:45px;
+height:45px;
+display:flex;
+align-items:center;
+justify-content:center;
+background:#eaf2ff;
+border-radius:10px;
+font-size:22px;
+color:#0d6efd;
+}
+
+.progress{
+height:8px;
+border-radius:10px;
+}
+
+.btn-primary{
+border-radius:8px;
+}
+
+.footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:30px;
+}
+
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+  <div class="container">
+    <a class="navbar-brand fw-bold d-flex align-items-center" href="#">
+      <img src="aseet/Logo_SMK_Batik_1_Surakarta_Vector_Cdr___Png_HD-removebg-preview.png" alt="logo" width="80" height="80" class="me-2">SMK BATIK SURAKARTA</a>
+
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#beranda">
+            Beranda
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#visi-misi">visi-misi</a>
+        </li>
+
+        <div class="dropdown d-inline-block me-2">
+          <button
+          class="btn btn-primary dropdown-toggle"
+           type="button"
+           id="dropdownmenu1"
+           data-bs-toggle="dropdown"
+           aria-expanded="false">jurusan</button>
+           <ul class="dropdown-menu" aria-labelledby="dropdownmenu1">
+            <li><a class="dropdown-item" href="TKR">TKR</a></li> 
+            <li><a class="dropdown-item" href="#">TSM</a></li> 
+            <li><a class="dropdown-item" href="#">PPLG</a></li> 
+            <li><a class="dropdown-item" href="#">TKJ</a></li> 
+            <li><a class="dropdown-item" href="#">KULINER</a></li> 
+            <li><a class="dropdown-item" href="#">BUSANA</a></li> 
+            <li><hr class="dropdown-devider"/></li>
+            <li><a class="dropdown-item" href="#">lihat semua</a>
+           </ul>
+        </div>
+
+        <li class="nav-item">
+          <a class="btn btn-warning text-dark fw-bold ms-lg-2" href="#tabel">
+            Tabel data
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  <section class="hero">
+        <h1>TEKNIK SEPEDA MOTOR</h1>
+        <p>TSM (Teknik Sepeda Motor) adalah jurusan di SMK yang mempelajari tentang perawatan, perbaikan, dan teknologi pada sepeda motor.</p>
+    </section>
+<div class="container py-5">
+<div class="row">
+
+<!-- KIRI -->
+<div class="col-lg-8">
+
+<div class="card p-4 mb-4">
+
+<h3 class="fw-bold">Membangun Masa Depan Melalui Teknologi Sepeda Motor</h3>
+
+<p class="text-muted">
+Program keahlian Teknik Sepeda Motor (TSM) dirancang untuk membekali siswa dengan keterampilan di bidang otomotif roda dua. Siswa akan belajar mulai dari dasar hingga praktik langsung agar siap bekerja di bengkel resmi, industri otomotif, maupun membuka usaha sendiri.
+</p>
+
+<div class="row mt-4">
+
+<div class="col-md-6 d-flex gap-3">
+<div class="icon-box">
+<i class="bi bi-screwdriver"></i>
+</div>
+<div>
+<h5 class="fw-bold mb-1">Servis</h5>
+<p class="text-muted small">
+mengatasi kerusakan pada sepeda motor.
+</p>
+</div>
+</div>
+
+<div class="col-md-6 d-flex gap-3">
+<div class="icon-box" style="background:#e8f6ef;color:#198754;">
+<i class="bi bi-scooter"></i>
+</div>
+<div>
+<h5 class="fw-bold mb-1">Sistem Keliatrikan Motor</h5>
+<p class="text-muted small">
+dapat mengatasi kerusakan pada sistem kelistrikan di sepeda motor.
+</p>
+</div>
+</div>
+
+</div>
+
+<hr>
+
+<h5 class="fw-bold mb-3">Fasilitas Unggulan</h5>
+
+<div class="d-flex justify-content-between mb-2">
+<span>bengkel motor lengkap</span>
+<span class="badge-blue">2 bengkel</span>
+</div>
+
+<div class="d-flex justify-content-between mb-2">
+<span>peralatan servis modern</span>
+<span class="badge-blue">alat lengkap</span>
+</div>
+
+<div class="d-flex justify-content-between">
+<span>Sertifikasi kompetensi</span>
+<span class="badge-blue">Voucher Tersedia</span>
+</div>
+
+</div>
+
+</div>
+
+<!-- KANAN -->
+<div class="col-lg-4">
+
+<div class="card p-3 mb-4">
+
+<h6 class="fw-bold text-center mb-3">Status Pendaftaran</h6>
+
+<div class="d-flex justify-content-between small mb-1">
+<span>Kuota Terisi</span>
+<span>90%</span>
+</div>
+
+<div class="progress mb-3">
+<div class="progress-bar bg-primary" style="width:90%"></div>
+</div>
+
+<button class="btn btn-primary w-100 mb-2">
+DAFTAR SEKARANG
+</button>
+
+<button class="btn btn-light w-100">
+← Kembali
+</button>
+
+</div>
+
+<div class="card p-2">
+
+<img src="aseet/download (21).jpg"
+class="img-fluid rounded">
+
+<p class="small text-muted mt-2">
+"Belajar di TSM SMK BATIK membuka wawasan saya tentang dunia Sepeda Motor."
+</p>
+
+<p class="fw-bold small">
+- Ahmad, Alumni 2024
+</p>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+<div class="footer" style="background-color: #0d6efd;">
+© 2026 SMK BATIK Seluruh Hak Cipta Dilindungi.
+</div>
+
+</body>
+</html>
